@@ -1,4 +1,4 @@
-# nombre_mystère
+# Le nombre mystère
 
 ## Présentation
 
