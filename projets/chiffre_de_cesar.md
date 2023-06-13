@@ -9,6 +9,10 @@ chaque lettre du message clair est remplacée par une lettre décalée d'un
 certain nombre de positions dans l'alphabet. Par exemple, avec une clé de
 décalage de 3, 'A' devient 'D', 'B' devient 'E', et ainsi de suite.
 
+Par exemple, le message `HELLO` avec une clé de décalage de 3 devient `KHOOR`.
+Autre exemple, le message `Il fait chaud et beau` avec une clé de décalage de 5
+devient `Nq kfny hftfi ji gfzt`.
+
 Dans ce projet, vous allez créer un programme qui demande à l'utilisateur une
 clé de chiffrement, un message à chiffrer et qui produit le message chiffré en
 utilisant cette méthode.
