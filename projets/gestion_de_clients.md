@@ -34,10 +34,8 @@ Python.
    été envoyée au client, avec le montant correspondant. Ensuite, appelez cette
    méthode sur chaque instance de la classe.
 
-3. **Constructeur et destructeur** : Modifiez la classe "Client" pour ajouter
-   une méthode `__init__` qui initialise les attributs de la classe. Ajoutez
-   également une méthode `__del__` qui imprime un message lorsqu'une instance
-   est supprimée.
+3. **Constructeur** : Modifiez la classe "Client" pour ajouter
+   une méthode `__init__` qui initialise les attributs de la classe.
 
 4. **Héritage** : Créez une classe "Client régulier" qui hérite de la classe
    "Client". Ajoutez un attribut "réductions" et une méthode
@@ -76,3 +74,8 @@ Voici quelques pistes pour aller plus loin avec ce projet :
    fonctionnalités supplémentaires à votre application, comme le suivi du temps
    de travail sur chaque projet, la gestion des paiements, la possibilité
    d'envoyer des factures par email, etc.
+
+5. **Création d'une interface graphique** : Utilisez une bibliothèque comme Tkinter
+   ou PyQT pour créer une interface graphique pour votre application. Cela
+   implique l'apprentissage de nouveaux concepts comme les widgets, les
+   gestionnaires de géométrie, les événements, etc.
